@@ -36,7 +36,7 @@ public:
             ans.push_back(temp);
 
         }
-        
+        //         simply grid bana ke odd place ko reverse kar diya hai;;;;;;;
         for(int i=1;i<ans.size();i+=2){
             reverse(ans[i].begin(),ans[i].end());
         }
